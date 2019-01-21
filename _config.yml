@@ -62,7 +62,7 @@ sidebar-avatar: /img/cxh.jpg      # use absolute URL, seeing it's used in both `
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
@@ -70,7 +70,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 friends: [
     {
         title: "My School",
-        href: "http://wwww.hust.com"
+        href: "http://wwww.hust.edu.cn"
     },{
         title: "Git Hub",
         href: "http://github.com/qwqcxh"
