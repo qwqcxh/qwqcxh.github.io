@@ -70,7 +70,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 friends: [
     {
         title: "My School",
-        href: "http://wwww.hust.edu.cn"
+        href: "https://wwww.hust.edu.cn"
     },{
         title: "Git Hub",
         href: "http://github.com/qwqcxh"
