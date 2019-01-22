@@ -91,20 +91,20 @@ header-img: "img/about-bg.jpg"
 <div id="gitalk-container"></div>
     <script type="text/javascript">
     var gitalk = new Gitalk({
-
-    // gitalk的主要参数
-        clientID: 'bf8d10b831a640bafb78',
-        clientSecret: 'efb95a07381570d8b6c8b8977313eaea073d8bd9 ',
-        repo: 'qwqcxh.github.io',
-        owner: 'qwqcxh',
-        admin: ['qwqcxh'],
-        id: '{{about}}',
-    
-    });
+    id: '{{ page.url | truncate: 50, ' '}}',
+    clientID: '{{ site.gitalk.clientID }}',
+    clientSecret: '{{ site.gitalk.clientSecret }}',
+    repo: '{{ site.gitalk.repo }}',
+    owner: '{{ site.gitalk.owner }}',
+    admin: ['{{ site.gitalk.owner }}'],
+    labels: ['about'],
+    perPage: 50,
+});
     gitalk.render('gitalk-container');
 </script>
 {% endif %}
 <!-- Gitalk end -->
+
 
 
 {% if site.duoshuo_username %}
