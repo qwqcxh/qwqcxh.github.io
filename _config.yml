@@ -42,15 +42,20 @@ kramdown:
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
-# Duoshuo settings
-duoshuo_username: Bebop.C
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+# # Duoshuo settings
+# duoshuo_username: Bebop.C
+# # Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
-
-
-
-
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: bf8d10b831a640bafb78                         #生成的clientID
+  clientSecret: efb95a07381570d8b6c8b8977313eaea073d8bd9    #生成的clientSecret
+  repo: qwqcxh.github.io    #仓库名称
+  owner: qwqcxh    #github用户名
+  admin: qwqcxh
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # Sidebar settings
@@ -69,8 +74,8 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "My School",
-        href: "https://wwww.hust.edu.cn"
+        title: "CPP",
+        href: "https://zh.cppreference.com/w/cpp"
     },{
         title: "Git Hub",
         href: "http://github.com/qwqcxh"
